@@ -77,7 +77,7 @@ body, ul, ll,p{
     align-items: flex-start;
     border: 2px solid black;
     margin: 10px;
-    tex
+
 }
 
 .paragrafos{
@@ -85,4 +85,26 @@ body, ul, ll,p{
     font-family: 'Raleway', sans-serif;
     padding: 10px;
     text-align: justify;
+}
+
+/*Ajustando o rodapé*/
+
+.footer{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+.redes sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redelogo{
+    margin: 5px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }
